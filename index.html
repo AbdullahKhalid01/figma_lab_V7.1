@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin Goods</title>
+    <meta
+      name="description"
+      content="Margin Goods desk essentials for calmer, more focused work."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Margin Goods home">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-text">Margin Goods</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#shop">Shop</a>
+          <a href="#story">Story</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="button button-primary header-button" href="#shop">
+          View collection
+          <svg aria-hidden="true" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.10795 10.8949L-5.24521e-06 9.78695L8.23863 1.53411H1.87499L1.8892 1.62125e-05H10.8807V9.0057H9.33238L9.34659 2.64206L1.10795 10.8949Z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Desk essentials</p>
+            <h1 id="hero-heading">Make room for better work.</h1>
+            <p class="hero-text">
+              Thoughtful tools for calmer mornings, easier focus, and a desk that feels like yours.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#shop">Shop now</a>
+              <a class="button button-secondary" href="#story">Our story</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img
+              src="assets/desk-hero.svg"
+              alt="Minimal desk arrangement with a laptop, book, pen cup, and desk mat in a bright workspace"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Store benefits">
+        <div class="container benefits-grid">
+          <div class="benefit-item">
+            <span class="benefit-label">Free shipping</span>
+            <span class="benefit-meta">On orders over $60</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-label">30-day returns</span>
+            <span class="benefit-meta">Easy exchanges</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-label">Built to last</span>
+            <span class="benefit-meta">Durable materials</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-label">Made for focus</span>
+            <span class="benefit-meta">Thoughtful, calming design</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="shop" class="collection" aria-labelledby="collection-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Quiet tools</p>
+            <h2 id="collection-heading">Desk essentials for a cleaner workflow.</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image">
+                <img src="assets/product-catchall.svg" alt="The Catchall tray with everyday desk items" />
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <h3>The Catchall</h3>
+                  <p class="price">$32</p>
+                </div>
+                <p class="product-description">
+                  A shallow tray that keeps your daily essentials within reach without visual clutter.
+                </p>
+                <button class="add-to-bag" type="button" data-product="The Catchall" data-price="$32">
+                  Add to bag
+                </button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img src="assets/product-pen-cup.svg" alt="The Pen Cup desk organizer in cobalt blue" />
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <h3>The Pen Cup</h3>
+                  <p class="price">$28</p>
+                </div>
+                <p class="product-description">
+                  A soft, sculptural cup for pens, clips, and other small tools you keep close at hand.
+                </p>
+                <button class="add-to-bag" type="button" data-product="The Pen Cup" data-price="$28">
+                  Add to bag
+                </button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img src="assets/product-daily-pad.svg" alt="The Daily Pad calendar and notepad for planning the day" />
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <h3>The Daily Pad</h3>
+                  <p class="price">$18</p>
+                </div>
+                <p class="product-description">
+                  A simple, secure write surface for notes, tasks, and the next best idea before the day starts.
+                </p>
+                <button class="add-to-bag" type="button" data-product="The Daily Pad" data-price="$18">
+                  Add to bag
+                </button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img src="assets/product-desk-mat.svg" alt="The Desk Mat in a pale blue runner shape on a desk" />
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <h3>The Desk Mat</h3>
+                  <p class="price">$64</p>
+                </div>
+                <p class="product-description">
+                  A soft landing zone for your keyboard, notebook, and mug—keeping the work surface peaceful.
+                </p>
+                <button class="add-to-bag" type="button" data-product="The Desk Mat" data-price="$64">
+                  Add to bag
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="brand-story" aria-labelledby="story-heading">
+        <div class="container story-grid">
+          <div class="story-media">
+            <img
+              src="assets/story-desk.svg"
+              alt="An organized desk scene with accessories arranged neatly in a minimalist workspace"
+            />
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow">Less clutter, better focus</p>
+            <h2 id="story-heading">Less on your desk. More space in your day.</h2>
+            <p>
+              Margin Goods creates thoughtful desk essentials designed to reduce distractions and help you settle into your work with intention. Clean surfaces, soft materials, and useful tools for the rhythm of everyday work.
+            </p>
+            <a class="button button-primary" href="#contact">Say hello</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Let’s talk</p>
+            <h2 id="contact-heading">Get in touch.</h2>
+            <p>
+              Need a recommendation for your setup? We’d love to hear what your ideal desk looks like.
+            </p>
+          </div>
+
+          <form id="contact-form" class="contact-form" novalidate aria-describedby="form-status">
+            <div class="field-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+              <small class="error-message" aria-live="polite"></small>
+            </div>
+
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+              <small class="error-message" aria-live="polite"></small>
+            </div>
+
+            <div class="field-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <small class="error-message" aria-live="polite"></small>
+            </div>
+
+            <button class="button button-primary submit-button" type="submit">Send message</button>
+            <p id="form-status" class="form-status" aria-live="polite">
+              Demo submission only — this form is not connected to a backend.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="journal">
+      <div class="container footer-grid">
+        <div class="footer-brand-block">
+          <a class="brand footer-brand" href="#top" aria-label="Margin Goods home">
+            <span class="brand-mark" aria-hidden="true">M</span>
+            <span class="brand-text">Margin Goods</span>
+          </a>
+          <p>Thoughtful desk essentials for slower, calmer work.</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#shop">Shipping</a></li>
+            <li><a href="#story">Returns</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Social</h3>
+          <ul>
+            <li><a href="#top">Instagram</a></li>
+            <li><a href="#top">Pinterest</a></li>
+            <li><a href="#top">Dribbble</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#top">Privacy</a></li>
+            <li><a href="#top">Terms</a></li>
+            <li><a href="#top">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="bag-toast" aria-live="polite" aria-atomic="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
